@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Spider-man Gallery</h1>
+        </div>
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control" onclick="goPrev()">
+                    <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-arrow-arrow-flatart-icons-solid-flatarticons-6.png"/></div>
+                <div class="slider--control" onclick="goNext()">
+                    <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-arrow-arrow-flatart-icons-solid-flatarticons-6.png"/>
+                </div>
+            </div>
+            <div class="slide--width">
+                <div class="slider--item" style="background-image: url(/images/spider1.jpg);background-color: tomato;"></div>
+                <div class="slider--item" style="background-image: url(/images/spider2.jpg);"></div>
+                <div class="slider--item" style="background-image: url(/images/spider3.jpg);"></div>
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+</html>
