@@ -33,7 +33,6 @@ function updateSlide(){
     document.querySelector('.slide--width').style.marginLeft = `-${newMargin }px`
 
     document.querySelectorAll('.slider--item')[currentSlide].style.backgroundColor = `${colors[randomColor]}`
-    console.log(randomColor)
 }
 
 setInterval(goNext, 3000)
