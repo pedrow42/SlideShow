@@ -1,2 +1,2 @@
 # SlideShow
-Slide Show using Javascript
+Basic slide show using Javascript.
